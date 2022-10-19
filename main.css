@@ -14,11 +14,13 @@ display: none;
 justify-content: space-between;
 }
 .mobile-link-holder{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     /* border: 2px solid tomato; */
 }
 .mobile-links{
+    /* border: 2px solid gold; */
+    padding: 0;
     display: none;
 }
 .showmobilelinks{
@@ -30,7 +32,11 @@ justify-content: space-between;
 }
 .mobile-links li{
     background: #F3EEE8;
-    padding: 10px 0;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.mobile-links li:hover{
+    background: transparent;
 }
 .harmburger-menu{
     /* border: 2px solid blue; */
@@ -38,15 +44,15 @@ justify-content: space-between;
     width: 30px;
     display: flex;
     position: fixed;
-    top: 15px;
-    right: 5px;
+    top: 5px;
+    right: 25px;
     align-items: center;
     /* z-index: 1000; */
 }
 .menubars{
 height: 4px;
 width: 100%;
-background: white;
+/* background: white; */
 position: relative;
 }
 .menubars::before, .menubars::after{
@@ -167,7 +173,7 @@ float: right;
 .secondsection-left{
     /* border: 2px solid blue; */
     width:40%;
-    margin-left:80px ;
+    margin-left:60px ;
 
 }
 
@@ -203,7 +209,7 @@ padding: 30px 0;
 .footer-leftdiv{
 /* border: 2px solid yellow; */
 width: 40%;
-margin-left: 80px;
+margin-left: 60px;
 
 }
 .footer-rightdiv{

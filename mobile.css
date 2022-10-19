@@ -18,6 +18,12 @@
     }
 }
 @media (max-width:700px) {
+    .mobile-links ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
     .first-sec-links ul{
         display: none;
     }
@@ -62,6 +68,9 @@
     }
     .text-content{
         width: 100%;
+    }
+    .arrow p span{
+        color: #A06056;
     }
     .text-content h1{
         color: rgba(112,100,88,1);
